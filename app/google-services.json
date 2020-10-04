@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898565232735",
+    "firebase_url": "https://utravel-c44ee.firebaseio.com",
+    "project_id": "utravel-c44ee",
+    "storage_bucket": "utravel-c44ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898565232735:android:418ae5891488cb93c9a3ea",
+        "android_client_info": {
+          "package_name": "com.example.utravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898565232735-2338b1e83qvq9so3ji2h1f9dvihl291i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utravel",
+            "certificate_hash": "32aba12c4a22360d8ff7fbddc341344300d2f952"
+          }
+        },
+        {
+          "client_id": "898565232735-44vejn508nk89nju1vgef3t77lht70fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd0opJIvBXgC24tE3ebc_DXQRuBMhYe3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898565232735-44vejn508nk89nju1vgef3t77lht70fi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

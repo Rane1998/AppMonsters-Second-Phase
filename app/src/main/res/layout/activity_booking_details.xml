@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#0F3F55">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cusDetails"
+        >
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:text="Update Boooking"
+            android:layout_below="@id/hotel_details"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/update"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/cancelbtn"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:text="cancel Boooking"
+            android:layout_below="@id/updatebtn"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/cancel"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/cusDetails"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/customer_name"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/contact_no"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/budget"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/no_of_people"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/room"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/checkin"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="@string/checkout"
+                android:textSize="18dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                />
+
+        </TableLayout>
+        <TableLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/myname"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/myphone"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/mybudget"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/mypeople"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/myroom"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/mycheckin"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/mycheckout"
+                android:layout_width="200dp"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
