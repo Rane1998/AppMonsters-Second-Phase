@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/Title"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/FullName"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/FullNameAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/FullNameAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#090909" />
+
+        <TextView
+            android:id="@+id/BirthOfDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/BirthOfDate"
+            android:textColor="#0C0C0C"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/BirthOfDateAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/BirthOfDateAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#0B0A0A" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TelNo"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/TelNo"
+            android:textColor="#121111"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/EmgNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/EmgNo"
+            android:textColor="#0C0C0C"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/TelNoAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/TelNoAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#0E0E0E" />
+
+        <EditText
+            android:id="@+id/EmgNoAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EmgNameAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#040404" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Address"
+            android:textColor="#0C0C0C"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/EmgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/EmgName"
+            android:textColor="#050505"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/AddressAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/AddressAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#0E0E0E" />
+
+        <EditText
+            android:id="@+id/EmgNameAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EmgNameAnswer"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Email"
+            android:textColor="#090909"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/VerifyEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/VerifyEmail"
+            android:textColor="#0E0E0E"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/EmailAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/EmailAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#0B0A0A" />
+
+        <EditText
+            android:id="@+id/VerifyEmailAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/VerifyEmailAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#121111" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/OldPassword"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/OldPassword"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/NewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/NewPassword"
+            android:textColor="#0C0C0C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/OldPasswordAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/OldPasswordAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#101010" />
+
+        <EditText
+            android:id="@+id/NewPasswordAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/NewPasswordAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#090909" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ConfirmPassword"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ConfirmPassword"
+            android:textColor="#131313"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/ConfirmPasswordAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/ConfirmPasswordAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#121111" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="102dp"
+            android:layout_height="41dp"
+            android:background="@drawable/background"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/btnSave"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/btnUpdate"
+            android:textColor="#0B0A0A"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/btnDelete"
+            android:textColor="#0B0A0A"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:background="@drawable/background"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/btnView"
+            android:textColor="#101010"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

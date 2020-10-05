@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Home"
+        android:title="@string/HomePage"
+        app:showAsAction="never" />
+    <item android:id="@+id/MyProfile"
+        android:title="@string/MyProfile"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/MyTrips"
+        android:title="@string/MyTrips"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/MyBookings"
+        android:title="@string/MyBookings"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/BookNow"
+        android:title="@string/BookNow"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/MyPackages"
+        android:title="@string/MyPackages"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/MyReviews"
+        android:title="@string/MyReviews"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/Help"
+        android:title="@string/Help"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/ContactUs"
+        android:title="@string/Contact"
+        app:showAsAction="never"
+        />
+</menu>

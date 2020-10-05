@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702906714574",
+    "firebase_url": "https://app-monsters-1025d.firebaseio.com",
+    "project_id": "app-monsters-1025d",
+    "storage_bucket": "app-monsters-1025d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702906714574:android:ccd703f79d658c1af3839f",
+        "android_client_info": {
+          "package_name": "com.example.appmonsters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702906714574-sh5annnhrt4eern4sq5qm4oigm4394j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrPQOB9HOUlzmwA6tG0MT0wTim_ye_wsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702906714574-sh5annnhrt4eern4sq5qm4oigm4394j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

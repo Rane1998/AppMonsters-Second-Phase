@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="109dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/TempConverter"
+            android:textColor="#131313"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/temperatureValue"
+        android:textColor="#070707"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Value"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="@string/Value"
+        android:inputType="textPersonName"
+        android:textColor="#0E0E0E"
+        android:textColorHint="#090909"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <RadioButton
+            android:id="@+id/Celcius"
+            android:layout_width="409dp"
+            android:layout_height="47dp"
+            android:text="@string/Celcius"
+            android:textColor="#090909"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/Farenheit"
+            android:layout_width="411dp"
+            android:layout_height="51dp"
+            android:text="@string/Farenheit"
+            android:textColor="#070707"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="@drawable/background"
+        android:fontFamily="sans-serif-black"
+        android:text="Convert"
+        android:textColor="#0B0A0A" />
+
+    <TextView
+        android:id="@+id/tempOutputValue"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tempOutputValue"
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="@string/txtResult"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
