@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">App Monsters</string>
+    <string name="currencyConverter">Currency Converter</string>
+    <string name="converter">Converter</string>
+    <string name="temperatureConverter">Temperature Converter</string>
+    <string name="distanceConverter">Distance Converter</string>
+    <string name="massConverter">Mass Converter</string>
+    <string name="CurrencyConvert">Currency Converter</string>
+    <string name="Value">Value</string>
+    <string name="FromValue">From Value</string>
+    <string name="ToValue">To Value</string>
+    <string name="convert">convert</string>
+    <string name="OutputValue">Output Value</string>
+    <string name="ReviewManagement">Review Management</string>
+    <string name="description">Located in Nuwara Eliya, 1.7 mi from Gregory Lake, Little England by Celeste offers accommodations with free WiFi and a garden.  Each unit has a fridge, a fireplace, a seating area with a sofa, a flat-screen TV and a private bathroom with shower. Some units have a terrace and/or balcony.  A continental breakfast is available daily at the villa.  If you would like to discover the area, cycling and hiking are possible in the surroundings and Little England by Celeste can arrange a bicycle rental service.  Hakgala Botanical Garden is 4.3 mi from the accommodations, while Galway\'s Land National Park is 1.9 mi from the property.  Couples in particular like the location – they rated it 8.4 for a two-person trip.  We speak your language!</string>
+    <string name="Description">Little England by Celeste</string>
+    <string name="required">Required fields are marked with*</string>
+    <string name="OverallRating">Overall Rating</string>
+    <string name="rate">Rate</string>
+    <string name="Rate">Click To Rate</string>
+    <string name="Title">Review Title</string>
+    <string name="titleAnswer">Great Place!!!!</string>
+    <string name="Review">Review*</string>
+    <string name="reviewAnswer">I went this place a month ago about that place.....</string>
+    <string name="recommendation">Would you recommend that place to other?</string>
+    <string name="nickname">Nickname*</string>
+    <string name="nicknameExample">anne21</string>
+    <string name="email">Emai;</string>
+    <string name="Email">Email</string>
+    <string name="emailAnswer">someone@gmail.com</string>
+    <string name="agree">I agree to the all term and conditions.</string>
+    <string name="emailReceive">You may receive emails regarding this submission.</string>
+    <string name="btnPostReview">Post Review</string>
+    <string name="CurrencyValue">LKR</string>
+    <string name="LoginPage">Login Page</string>
+    <string name="UserName">User Name</string>
+    <string name="UsernameAnswer">anne21</string>
+    <string name="Password">********</string>
+    <string name="password">Password</string>
+    <string name="btnLogin">Sign In</string>
+    <string name="TripPlanner">Trip Planner</string>
+    <string name="Explore">Explore</string>
+    <string name="Converter">Converter</string>
+    <string name="Schedule">Schedule</string>
+    <string name="LanguageTips">Language Tips</string>
+    <string name="WhereAmI">Where Am I</string>
+    <string name="HomePage">Home</string>
+    <string name="MyProfile">My Profile</string>
+    <string name="MyTrips">My Trips</string>
+    <string name="MyBookings">My Bookings</string>
+    <string name="BookNow">Book Now</string>
+    <string name="MyPackages">My Packages</string>
+    <string name="Help">Help</string>
+    <string name="MyReviews">My Reviews</string>
+    <string name="Contact">Contact</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnShow">Show</string>
+    <string name="btnDelete">Delete</string>
+    <string name="SignUp">Don\'t you have account?</string>
+    <string name="clickHere">Click Here</string>
+    <string name="USD">USD(United States Dollar)</string>
+    <string name="EUR">Euro EUR</string>
+    <string name="JPY">Japanese Yen JPY</string>
+    <string name="INR">Indian Rupee</string>
+
+    <string-array name="currency_array">
+        <item>AED</item>
+        <item>AUD</item>
+        <item>BDT</item>
+        <item>CNY</item>
+        <item>CAD</item>
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>INR</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>LKR</item>
+        <item>MYR</item>
+        <item>PKR</item>
+        <item>RUB</item>
+        <item>SGD</item>
+        <item>USD</item>
+    </string-array>
+</resources>

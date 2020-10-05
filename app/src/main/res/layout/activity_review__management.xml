@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/ReviewManagement"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/LittleEngland"
+            android:layout_width="231dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/little_england" />
+
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:text="@string/Description"
+            android:textColor="#0E0E0E"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/required"
+        android:textColor="#090909" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/OverallRating"
+            android:textColor="#0E0E0E"
+            android:textColorHighlight="#0B0A0A"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="277dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Rate"
+        android:textColor="#0E0E0E" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textColor="#0B0A0A" />
+
+    <EditText
+        android:id="@+id/titleAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/titleAnswer"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Review"
+        android:textColor="#0E0E0E"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/reviewAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/reviewAnswer"
+        android:inputType="textMultiLine" />
+
+    <Switch
+        android:id="@+id/recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recommendation" />
+
+    <TextView
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nickname"
+        android:textColor="#070707"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/nicknameAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="@string/nicknameExample"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:textColor="#0C0C0C"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/emailAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/emailAnswer"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:id="@+id/agree"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:text="@string/agree" />
+
+    <CheckBox
+        android:id="@+id/emailRecieve"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:text="@string/emailReceive" />
+
+    <Button
+        android:id="@+id/btnPostReview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/background"
+        android:text="@string/btnPostReview" />
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/LoginPage"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/LoginPage"
+            android:textColor="#101010"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/UserName"
+            android:textColor="#151515"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/UsernameAnswer"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/UsernameAnswer"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Password"
+            android:layout_width="92dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/password"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/PasswordAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/Password"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/background"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/btnLogin"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/SignUp"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="@string/SignUp"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clickHere" />
+    </LinearLayout>
+
+</LinearLayout>

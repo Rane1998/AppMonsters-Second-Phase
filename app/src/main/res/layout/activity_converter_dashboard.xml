@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ConverterDashboard">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/converter"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:text="@string/converter"
+        android:textColor="#FAF7F7"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/currencyConverter"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="@drawable/background"
+        android:shadowColor="#F5F3F8"
+        android:text="@string/currencyConverter"
+        android:textColor="#131313" />
+
+    <Button
+        android:id="@+id/temperatureConverter"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:background="@drawable/background"
+        android:text="@string/temperatureConverter" />
+
+    <Button
+        android:id="@+id/distanceConverter"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:text="@string/distanceConverter" />
+
+    <Button
+        android:id="@+id/massConverter"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@drawable/background"
+        android:text="@string/massConverter" />
+</LinearLayout>
