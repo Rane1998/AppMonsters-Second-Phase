@@ -33,7 +33,7 @@
         android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/unit_converter"
-        android:hint="Enter Kilograms here"/>
+        android:hint="Enter Kilograms"/>
 
 
     <TextView

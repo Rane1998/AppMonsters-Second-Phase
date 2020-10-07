@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:backgroundTint="#EFF1F1"
+   >
+
+
+
+
+    <LinearLayout
+        android:id="@+id/form"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="175dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Customer name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+
+                android:text="Contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+
+                android:text="budget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+
+                android:text="No Of People"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+
+                android:text="Room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+
+                android:text="CheckIn date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                 android:text="Checkout date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <ImageButton
+
+                android:id="@+id/update_btn"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_btn" />
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/myname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/myphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/mybudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/mypeople"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/myroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/mycheckin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/mycheckout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                    android:id="@+id/cancel_btn"
+                    android:layout_height="50dp"
+                     android:layout_marginTop="15dp"
+                     android:layout_marginRight="40dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="@drawable/delete_btn"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="75dp" />
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

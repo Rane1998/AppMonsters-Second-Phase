@@ -23,10 +23,9 @@ import com.squareup.picasso.Picasso;
 public class   HotelDetails extends AppCompatActivity{
 
     private ImageView imageView;
-    private TextView textView,mprice;
+    private TextView textView;
     private Button book;
-    private Dialog loadingDialog;
-    private Dialog paymentMethod;
+
 
 
 

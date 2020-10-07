@@ -99,42 +99,44 @@ public class Booking extends AppCompatActivity {
 
 
                 if(TextUtils.isEmpty(name)){
-                    mcusName.setError("Enter the customer name");
+                    mcusName.setError("Enter the customer name!");
                     return;
 
                 }
-                if(TextUtils.isEmpty(budget)){
+                else if(TextUtils.isEmpty(budget)){
                     mbudget.setError("Enter the Budget!");
                     return;
 
                 }
+                else if(TextUtils.isEmpty(people)){
+                    mpeople.setError("Enter the No of People!");
+                }
 
-
-                if(TextUtils.isEmpty(phone)){
-                    mphone.setError("Enter the valid phone number");
+                else if(TextUtils.isEmpty(phone)){
+                    mphone.setError("Enter the valid phone number!");
                     return;
 
                 }
-                if(TextUtils.isEmpty(ac)||(TextUtils.isEmpty(nonAc))){
+                else if(TextUtils.isEmpty(ac)&&(TextUtils.isEmpty(nonAc))){
                     if(TextUtils.isEmpty(ac)){
-                        mac.setError("Enter the room category");
+                        mac.setError("Enter the room category!");
                     }
                     else if(TextUtils.isEmpty(nonAc)){
-                        mnonAc.setError("Enter the room category");
+                        mnonAc.setError("Enter the room category!");
                     }
 
                 }
-                if(TextUtils.isEmpty(checkin)){
-                    mcheckin.setError("Enter the checking date");
+                else if (TextUtils.isEmpty(checkin)){
+                    mcheckin.setError("Enter the checking date!");
                     return;
 
                 }
-                if(TextUtils.isEmpty(checkout)){
-                    mcheckout.setError("Enter the checkout date");
+                else if(TextUtils.isEmpty(checkout)){
+                    mcheckout.setError("Enter the checkout date!");
                     return;
 
                 }
-                if((phone.length() < 10)) {
+                else if((phone.length() < 10)) {
                     mphone.setError("Enter  valid phone number!");
                     return;
                 }
