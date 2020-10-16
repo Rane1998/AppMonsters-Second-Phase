@@ -31,11 +31,9 @@ public class Booking extends AppCompatActivity {
     ArrayList<String> selection  = new ArrayList<String>();
 
     private static final String TAG  = "Booking";
-    private EditText mcusName,mphone,mbudget,mpeople,mcheckin,mcheckout;
+    private EditText mcusName,mphone,mcheckin,mcheckout,mlocation;
     private CheckBox mac,mnonAc;
     private Button mshowdetail;
-
-
     private DatePickerDialog.OnDateSetListener dateSetListener;
     private DatePickerDialog.OnDateSetListener dateSetListener1;
     FirebaseDatabase database;
@@ -52,12 +50,11 @@ public class Booking extends AppCompatActivity {
 
         mcusName = findViewById(R.id.cusName);
         mphone = findViewById(R.id.phone);
-        mbudget = findViewById(R.id.budget);
-        mpeople = findViewById(R.id.people);
         mac = findViewById(R.id.ac);
         mnonAc = findViewById(R.id.nonac);
         mcheckin = findViewById(R.id.checkin);
         mcheckout =  findViewById(R.id.checkout);
+        mlocation = findViewById(R.id.location);
 
         mshowdetail = findViewById(R.id.showdetail);
         final UserDetail userDetail = new UserDetail();
@@ -85,35 +82,24 @@ public class Booking extends AppCompatActivity {
 
                 String name = mcusName.getText().toString();
                 String phone = mphone.getText().toString();
-                String budget = mbudget.getText().toString();
-                String people = mpeople.getText().toString();
+                String location = mlocation.getText().toString();
                 String ac = mac.getText().toString();
                 String nonAc = mnonAc.getText().toString();
                 String checkin = mcheckin.getText().toString();
                 String checkout = mcheckout.getText().toString();
                 boolean istrue;
 
-
-
-
-
-
                 if(TextUtils.isEmpty(name)){
                     mcusName.setError("Enter the customer name!");
                     return;
-
                 }
-                else if(TextUtils.isEmpty(budget)){
-                    mbudget.setError("Enter the Budget!");
+                else if(TextUtils.isEmpty(phone)){
+                    mphone.setError("Enter the phone number!");
                     return;
 
                 }
-                else if(TextUtils.isEmpty(people)){
-                    mpeople.setError("Enter the No of People!");
-                }
-
                 else if(TextUtils.isEmpty(phone)){
-                    mphone.setError("Enter the valid phone number!");
+                    mlocation.setError("Enter the location!");
                     return;
 
                 }
@@ -143,8 +129,7 @@ public class Booking extends AppCompatActivity {
 
                 userDetail.setName(mcusName.getText().toString());
                 userDetail.setPhone(mphone.getText().toString());
-                userDetail.setBudget(mbudget.getText().toString());
-                userDetail.setPeople(mpeople.getText().toString());
+                userDetail.setLocation(mlocation.getText().toString());
                 userDetail.setCheckin(mcheckin.getText().toString());
                 userDetail.setCheckout(mcheckout.getText().toString());
                 reference.child(String.valueOf(i + 1)).setValue(userDetail);

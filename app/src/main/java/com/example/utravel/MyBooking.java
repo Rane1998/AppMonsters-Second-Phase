@@ -63,8 +63,7 @@ public class MyBooking extends AppCompatActivity {
 
                 holder.name.setText(model.getName());
                 holder.phone.setText(model.getPhone());
-                holder.budget.setText(model.getBudget());
-                holder.people.setText(model.getPeople());
+                holder.location.setText(model.getLocation());
                 holder.room.setText(model.getRoom());
                 holder.checkin.setText(model.getCheckin());
                 holder.checkout.setText(model.getCheckout());
@@ -84,8 +83,6 @@ public class MyBooking extends AppCompatActivity {
 
                         final EditText name = myview.findViewById(R.id.cus_name);
                         final EditText phone = myview.findViewById(R.id.cus_phone);
-                        final EditText budget = myview.findViewById(R.id.cus_budget);
-                        final EditText people = myview.findViewById(R.id.cus_people);
                         final EditText checkin = myview.findViewById(R.id.cus_checkin);
                         final EditText checkout = myview.findViewById(R.id.cus_checkout);
                         Button submit = myview.findViewById(R.id.update_button);
@@ -93,8 +90,6 @@ public class MyBooking extends AppCompatActivity {
 
                         name.setText(model.getName());
                         phone.setText(model.getPhone());
-                        budget.setText(model.getBudget());
-                        people.setText(model.getPeople());
                         checkin.setText(model.getCheckin());
                         checkout.setText(model.getCheckout());
 
@@ -106,8 +101,6 @@ public class MyBooking extends AppCompatActivity {
                                 Map<String,Object>map = new HashMap<>();
                                 map.put("name",name.getText().toString());
                                 map.put("phone",phone.getText().toString());
-                                map.put("budget",budget.getText().toString());
-                                map.put("people",people.getText().toString());
                                 map.put("checkin",checkin.getText().toString());
                                 map.put("checkout",checkout.getText().toString());
 
@@ -128,17 +121,12 @@ public class MyBooking extends AppCompatActivity {
 
                             }
                         });
-
-
-
-
                     }
                 });
                 holder.cancel.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         AlertDialog.Builder builder = new AlertDialog.Builder(holder.phone.getContext());
-                        builder.setTitle("Cancel Panel!");
                         builder.setMessage("Are you sure that you want to cancel this package!");
 
                         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
@@ -160,7 +148,6 @@ public class MyBooking extends AppCompatActivity {
 
 
             }//End Of OnBindView Method
-
             @NonNull
             @Override
             public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

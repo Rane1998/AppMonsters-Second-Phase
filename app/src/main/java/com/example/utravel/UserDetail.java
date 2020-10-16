@@ -2,24 +2,21 @@ package com.example.utravel;
 
 public class UserDetail {
 
-    private String name,room,checkin,checkout,phone,budget;
-    private String people;
+    private String name,room,checkin,checkout,phone,budget,location;
+
 
     public UserDetail() {
 
     }
-
-    public UserDetail(String name, String phone, String budget, String people, String room, String checkin, String checkout) {
+    public UserDetail(String name, String phone,String location, String budget,String room, String checkin, String checkout) {
         this.name = name;
         this.phone = phone;
         this.budget = budget;
-        this.people = people;
         this.room = room;
         this.checkin = checkin;
         this.checkout = checkout;
+        this.location = location;
     }
-
-
     public String getName() {
         return name;
     }
@@ -34,22 +31,6 @@ public class UserDetail {
 
     public void setPhone(String phone) {
         this.phone = phone;
-    }
-
-    public String getBudget() {
-        return budget;
-    }
-
-    public void setBudget(String budget) {
-        this.budget = budget;
-    }
-
-    public String getPeople() {
-        return people;
-    }
-
-    public void setPeople(String people) {
-        this.people = people;
     }
 
     public String getRoom() {
@@ -74,5 +55,13 @@ public class UserDetail {
 
     public void setCheckout(String checkout) {
         this.checkout = checkout;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 }

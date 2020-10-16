@@ -8,4 +8,15 @@
     <string name="room">Room :</string>
     <string name="checkin">CheckIn:</string>
     <string name="checkout">Checkout:</string>
+    <string name="converter">Converter</string>
+    <string name="languagetips">LanguageTips</string>
+    <string name="explore">Explore</string>
+    <string name="schedule">Schedule</string>
+    <string name="whereami">WhereAmI</string>
+    <string name="createone">CreateOne</string>
+    <string name="createmulti">CreateMulti</string>
+    <string name="addhotel">AddHotel</string>
+    <string name="viewone">ViewOne</string>
+    <string name="viewmulti">ViewMulti</string>
+    <string name="viewhotel">ViewHotel</string>
 </resources>

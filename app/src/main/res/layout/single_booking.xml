@@ -6,10 +6,6 @@
     android:background="@color/colorAccent"
     android:backgroundTint="#EFF1F1"
    >
-
-
-
-
     <LinearLayout
         android:id="@+id/form"
         android:layout_marginTop="20dp"
@@ -34,16 +30,11 @@
                 android:textSize="20dp"/>
             <TextView
 
-                android:text="budget"
+                android:text="Location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"/>
-            <TextView
 
-                android:text="No Of People"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"/>
             <TextView
 
                 android:text="Room"
@@ -89,12 +80,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20dp"/>
             <TextView
-                android:id="@+id/mybudget"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20dp"/>
-            <TextView
-                android:id="@+id/mypeople"
+                android:id="@+id/mylocation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="20dp"/>

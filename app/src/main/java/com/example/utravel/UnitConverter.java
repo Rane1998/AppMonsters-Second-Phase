@@ -41,11 +41,8 @@ public class UnitConverter extends AppCompatActivity {
                 float kilo = Float.parseFloat(mkilo.getText().toString());
 
                         mvalue.setText(String.valueOf(convertKiloToPounds(kilo))+"lb");
-
-                    }
+            }
         });
-
-
     }
     public static float convertKiloToPounds(float number) {
                     return (float) (number * 2.20462);
